@@ -89,7 +89,7 @@ export default class Status extends Component {
 
     return (
       <div
-        className={className}
+        className={'autocomplete__visually-hidden' + className}
         style={{
           border: '0',
           clip: 'rect(0 0 0 0)',
